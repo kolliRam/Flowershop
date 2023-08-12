@@ -1,0 +1,282 @@
+
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive flower website design tutorial</title>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+    <link rel="stylesheet" href=""C:\Users\Admin\Documents\kolli\kolli.css">
+
+</head>
+<body>
+<header>
+<section class="products" id="products">
+
+    <h1 class="heading"> latest <span>products</span> </h1>
+
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="data:image/jpeg;base64,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" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="https://www.bing.com/th?id=OPA.Z7wLUfZO9mpFFQ474C474&o=5&pid=21.1&w=142&h=142&rs=1&qlt=100&dpr=1.5" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="https://www.bing.com/th?id=OPA.0JowykrIkwx85w474C474&o=5&pid=21.1&w=142&h=142&rs=1&qlt=100&dpr=1.5" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="C:\Users\Admin\Downloads\img-4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="C:\Users\Admin\Downloads\img-4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="C:\Users\Admin\Downloads\img-4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="C:\Users\Admin\Downloads\img-4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="C:\Users\Admin\Downloads\img-4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="C:\Users\Admin\Downloads\img-4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="C:\Users\Admin\Downloads\img-4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="C:\Users\Admin\Downloads\img-4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="C:\Users\Admin\Downloads\img-4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="C:\Users\Admin\Downloads\img-4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="C:\Users\Admin\Downloads\img-4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="C:\Users\Admin\Downloads\img-4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>flower pot</h3>
+        <div class="price"> ₹12.99 <span>₹15.99</span> </div>
+    </div>
+</div>
+
+<div class="box">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="C:\Users\Admin\Downloads\img-4.jpg" alt="">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="cart-btn">add to cart</a>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+
+
+</body>
+</html>
